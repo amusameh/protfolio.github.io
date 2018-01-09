@@ -88,6 +88,10 @@ table {
 
 body {
 	font-family: 'Ubuntu', sans-serif;
+	font-size: 13px;
+    line-height: 18px;
+    color: #4c4c4c;
+    background: #eee url(../images/concrete_wall_3.jpg) repeat;
 	height: 2000px;
 }
 
@@ -181,3 +185,16 @@ body {
 	font-weight: 400;
 }
 
+.portfolio ul {
+	float: left;
+}
+
+.portfolio ul li {
+
+}
+.portfolio img {
+	width: calc(100% / 4);
+	float: left;
+	padding-left: 10px;
+	padding-bottom: 10px;
+}
